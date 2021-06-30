@@ -1,3 +1,7 @@
+.header {
+	background-color: red;
+}
+
 .header__skills, .header__apply {
 	font-family: 'gilroyregular', arial, helvetica, sans-serif;
 }
