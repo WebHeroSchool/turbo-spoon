@@ -1,9 +1,23 @@
+.wrapper {
+	margin: auto;
+	width: 100%;
+}
+
 .header {
 	margin-bottom: 80px;
+	display: flex;
+	padding: 3px 0;
 }
 
 .header__skills, .header__apply {
 	font-family: 'gilroyregular', arial, helvetica, sans-serif;
+	color: #585858;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.header__skills {
+	margin-left: 53.3%;
 }
 
 .header__button {
