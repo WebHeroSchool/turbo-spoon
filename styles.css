@@ -4,9 +4,9 @@
 }
 
 .header {
-	margin-bottom: 80px;
+	margin-bottom: -30px;
 	display: flex;
-	padding: 3px 0;
+	padding: 39px 0;
 }
 
 .header__skills, .header__apply {
@@ -17,11 +17,23 @@
 }
 
 .header__skills {
-	margin-left: 53.3%;
+	margin-left: 53.5%;
+	margin-right: 3%;
+}
+
+.header__apply {
+	margin-right: 3%;
 }
 
 .header__button {
-	font-family: 'montserratregular', arial, helvetica, sans-serif;
+	font: 23px/23px 'montserratregular', arial, helvetica, sans-serif;
+	font-weight: bold;
+	width: 12.5%;
+	padding: 12px 12px;
+	background-color: #330099;
+	color: #fff;
+	border-radius: 25px;
+	margin-top: -15px;
 }
 
 .banner__tittle {
@@ -30,6 +42,15 @@
 
 .banner__text {
 	font-family: 'montserratregular', arial, helvetica, sans-serif;
+}
+
+.banner__picture {
+	background: no-repeat url(img/banner.svg);
+	position: absolute;
+	width: 1450px;
+	height: 481px;
+	background-size: 100%;
+	margin-left: -8px;
 }
 
 .first__tittle {
