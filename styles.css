@@ -37,11 +37,11 @@
 }
 
 .banner__tittle {
-	font: 40px/30px 'montserratextrabold', arial, helvetica, sans-serif;
+	font: 39px/30px 'montserratextrabold', arial, helvetica, sans-serif;
 	font-weight: bold;
 	position: relative;
 	z-index: 2;
-	margin-top: -300px;
+	margin-top: -240px;
 	margin-left: 775px;
 	color: #330099;
 }
