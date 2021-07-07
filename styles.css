@@ -37,19 +37,23 @@
 }
 
 .banner__tittle {
-	font: 39px/30px 'montserratextrabold', arial, helvetica, sans-serif;
+	font: 40px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
 	font-weight: bold;
 	position: relative;
 	z-index: 2;
-	margin-top: -240px;
-	margin-left: 775px;
+	margin-top: -327px;
+	margin-left: 735px;
+	width: 566px;
 	color: #330099;
+	letter-spacing: 0.2px;
+	text-align: right;
 }
 
 .banner__text {
-	font-family: 'montserratregular', arial, helvetica, sans-serif;
+	font: 28px/30px 'montserratbold', arial, helvetica, sans-serif;
 	position: relative;
 	z-index: 2;
+	margin-left: 735px;
 }
 
 .banner__picture {
