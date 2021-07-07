@@ -19,8 +19,7 @@
 @font-face {
     font-family: 'montserratextrabold';
     src: url('fonts/montserrat-extrabold-webfont.woff') format('woff'),
-         url('fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
-         url('fonts/montserrar-extrabold-webfont.ttf') format('ttf');
+         url('fonts/montserrat-extrabold-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
