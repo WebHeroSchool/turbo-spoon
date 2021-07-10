@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'montserratregular';
-    src: url('fonts/montserrat-regular-webfont.woff') format('woff'),
+    src: url('fonts/montserrat-regular.woff') format('woff'),
          url('fonts/montserrat-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -50,20 +50,11 @@
 
 }
 
-@font-face {
-    font-family: 'gilroyblack';
-    src: url('fonts/gilroy-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
 
 
 @font-face {
     font-family: 'gilroybold';
-    src: url('fonts/gilroy-bold-webfont.woff') format('woff');
+    src: url('fonts/gilroy-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -74,7 +65,7 @@
 
 @font-face {
     font-family: 'gilroymedium';
-    src: url('fonts/gilroy-medium-webfont.woff') format('woff');
+    src: url('fonts/gilroy-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -85,7 +76,7 @@
 
 @font-face {
     font-family: 'gilroyregular';
-    src: url('fonts/gilroy-regular-webfont.woff') format('woff');
+    src: url('fonts/gilroy-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -96,7 +87,7 @@
 
 @font-face {
     font-family: 'gilroyextrabold';
-    src: url('fonts/gilroy-extrabold-webfont.woff') format('woff');
+    src: url('fonts/gilroy-extrabold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
