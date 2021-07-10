@@ -6,14 +6,14 @@
 .header {
 	margin-bottom: -10px;
 	display: flex;
-	padding: 39px 0;
+	padding: 41px 0;
 }
 
 .header__skills, .header__apply {
-	font-family: 'gilroyextrabold', arial, helvetica, sans-serif;
+	font-family: 'gilroybold', arial, helvetica, sans-serif;
 	color: #585858;
 	font-weight: bold;
-	font-size: 19px;
+	font-size: 20px;
 }
 
 .header__skills {
@@ -22,18 +22,18 @@
 }
 
 .header__apply {
-	margin-right: 42px;
+	margin-right: 46px;
 }
 
 .header__button {
-	font: 20px/23px 'montserratbold', arial, helvetica, sans-serif;
+	font: 20px/22px 'montserratbold', arial, helvetica, sans-serif;
 	font-weight: bold;
 	width: 12.5%;
-	padding: 12px 12px;
+	padding: 13px 13px 13px 10px;
 	background-color: #330099;
 	color: #fff;
 	border-radius: 25px;
-	margin-top: -15px;
+	margin-top: -17px;
 }
 
 .banner__tittle {
@@ -41,7 +41,7 @@
 	font-weight: bold;
 	position: relative;
 	z-index: 2;
-	margin-top: -327px;
+	margin-top: -330px;
 	margin-left: 735px;
 	width: 566px;
 	color: #330099;
@@ -160,6 +160,8 @@
 }
 
 
-
+@media (max-width: 1299px) {
+	
+}
 
 
