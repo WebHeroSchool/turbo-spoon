@@ -9,6 +9,10 @@
 	padding: 41px 0;
 }
 
+.input {
+	opacity: 0;
+}
+
 .header__skills, .header__apply {
 	font-family: 'gilroybold', arial, helvetica, sans-serif;
 	color: #585858;
@@ -160,8 +164,145 @@
 }
 
 
-@media (max-width: 1299px) {
-	
+@media (max-width: 1190px) {
+  .header__button {
+    font: 18px/22px 'montserratbold', arial, helvetica, sans-serif;
+    width: 170px;
+  }
+}
+
+@media (max-width: 320px) {
+  #menu__toogle {
+  	opacity: 0;
+  }
+
+  .menu__btn {
+  	display: flex;
+  	align-items: center;
+  	position: absolute;
+  	left: 60%;
+  	cursor: pointer;
+  	z-index: 2;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+  	display: block;
+  	position: absolute;
+  	width: 23px;
+  	height: 3px;
+  	margin-left: 75px;
+  	margin-top: -23px;
+  	background-color: #330099;
+  }
+
+  .menu__btn > span::before {
+  	content: '';
+  	top: 15px;
+  	margin-left: 0;
+  }
+
+  .menu__btn > span::after {
+  	content: '';
+  	top: 30px;
+  	margin-left: 0;
+  }
+
+  .menu__box {
+  	display: block;
+  	position: fixed;
+  	top: 0;
+  	visibility: hidden;
+  	left: -100%;
+  	width: 204%;
+  	height: 100%;
+  	margin: 0;
+  	padding: 21% 0 100% 0;
+  	list-style: none;
+  	text-align: center;
+  	background-color: white;
+  	z-index: 1;
+  }
+
+  #menu__toogle:checked ~ .menu__btn > span {
+  	top: 10px;
+  	transform: rotate(45deg);
+  }
+
+  #menu__toogle:checked ~ .menu__btn > span::before {
+  	top: 23px;
+  	transform: rotate(0);
+  }
+
+  #menu__toogle:checked ~ .menu__btn > span::after {
+  	top: 23px;
+  	transform: rotate(90deg);
+  }
+
+  #menu__toogle:checked ~ .menu__box {
+  	visibility: visible;
+  	left: 0;
+  }
+
+  .header {
+  	margin-bottom: 0;
+  	display: flex;
+  	padding: 8px 0 18px 0;
+  }
+
+  .header__button {
+  	font: 8px/22px 'montserratbold', arial, helvetica, sans-serif;
+  	width: 70px;
+  	padding: 0 1px 0 9px;
+  	align-items: center;
+  	height: 20px;
+  	display: flex;
+  	margin-left: 150px;
+  	margin-top: 0;
+  }
+
+  .banner__tittle {
+	font: 14px/18.5px 'montserratextrabold', arial, helvetica, sans-serif;
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+	margin-top: -330px;
+	margin-left: 35px;
+	width: 166px;
+	color: #330099;
+	letter-spacing: 0.2px;
+	text-align: right;
+}
+
+.banner__text {
+	font: 9px/26px 'montserratbold', arial, helvetica, sans-serif;
+	position: relative;
+	z-index: 2;
+	margin-left: 144px;
+	margin-top: -23px;
+	letter-spacing: 0.7px;
+	width: 151px;
+	text-align: right;
+}
+
+.banner__text_lower {
+	letter-spacing: 0.6px;
+	margin-right: -7px;
+}
+
+.banner__picture {
+	background: no-repeat url(img/banner.svg);
+	position: relative;
+	width: 1450px;
+	height: 481px;
+	background-size: 22.5%;
+	margin-left: -8px;
+	z-index: 1;
+}
+
+
+
 }
 
 
