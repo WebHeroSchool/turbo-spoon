@@ -73,9 +73,9 @@
 .banner__picture {
 	background: no-repeat url(img/banner.svg);
 	position: relative;
-	width: 1450px;
+	width: 101%;
 	height: 480px;
-	background-size: 101%;
+	background-size: 102%;
 	margin-left: -8px;
 	z-index: 1;
 }
@@ -202,6 +202,36 @@
   .header__skills {
   	margin-left: 800px;
   }
+
+  .banner__picture {
+  	width: 109.5%;
+  	background: no-repeat url(img/banner.svg);
+  	background-size: 102%;
+  }
+
+  .banner__tittle {
+  	margin-left: 70%;
+  }
+
+  .banner__text {
+  	margin-left: 83%;
+  }
+}
+
+@media (max-width: 1560px) {
+  .banner__picture {
+  	width: 110.5%;
+  	background: no-repeat url(img/banner.svg);
+  	background-size: 102%;
+  }
+
+  .banner__tittle {
+  	margin-left: 65%;
+  }
+
+  .banner__text {
+  	margin-left: 80%;
+  }
 }
 
 @media (max-width: 1441px) {
@@ -229,7 +259,7 @@
   }
 
   .banner__picture {
-  	width: 1441px;
+  	width: 101%;
   	height: 485px;
   	background: no-repeat url(img/banner.svg);
   	background-size: 102%;
@@ -252,6 +282,25 @@
   }
 }
 
+@media (max-width: 1360px) {
+  .banner__picture {
+  	width: 101.8%;
+  	height: 485px;
+  	background: no-repeat url(img/banner.svg);
+  	background-size: 102%;
+  }
+
+  .banner__tittle {
+  	font: 40px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  	margin-left: 650px;
+  }
+
+  .banner__text {
+  	font: 29px/37px 'montserratbold', arial, helvetica, sans-serif;
+  	margin-left: 865px;
+  }
+}
+
 @media (max-width: 1300px) {
   .header__skills {
   	margin-left: 440px;
@@ -266,13 +315,45 @@
     font: 18px/22px 'montserratbold', arial, helvetica, sans-serif;
     width: 170px;
   }
+
+  .banner__picture {
+  	width: 125%;
+  	background: no-repeat url(img/banner.svg);
+  	background-size: 102%;
+  }
+
+  .banner__tittle {
+  	font: 38px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  	margin-left: 600px;
+  }
+
+  .banner__text {
+  	font: 28px/37px 'montserratbold', arial, helvetica, sans-serif;
+  	margin-left: 800px;
+  }
 }
 
 @media (max-width: 1000px) {
-	.header__skills {
-		margin-left: 100px;
-	}
+  .header__skills {
+    margin-left: 100px;
+  }
 
+  .banner__picture {
+  	width: 183%;
+  	background: no-repeat url(img/banner.svg);
+  	background-size: 102%;
+  }
+
+  .banner__tittle {
+  	font: 38px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  	margin-left: 90%;
+  }
+
+  .banner__text {
+  	font: 28px/37px 'montserratbold', arial, helvetica, sans-serif;
+  	margin-left: 110%;
+  }
+  
 }
 
 @media (max-width: 655px) {
