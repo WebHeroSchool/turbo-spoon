@@ -1,4 +1,5 @@
 .wrapper {
+  font-family:'montserratbold', arial, helvetica, sans-serif;
   margin: auto;
   width: 100%;
 }
@@ -30,10 +31,11 @@
 }
 
 .header__button {
-  font: 20px/22px 'montserratbold', arial, helvetica, sans-serif;
+  font-size: 20px;
+  font-family:'montserratbold', arial, helvetica, sans-serif;
   font-weight: bold;
   width: 12.5%;
-  padding: 13px 13px 13px 10px;
+  padding: 13px 13px 11px 10px;
   background-color: #330099;
   color: #fff;
   border-radius: 25px;
@@ -41,11 +43,12 @@
 }
 
 .banner__tittle {
-  font: 40px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  font-family: 'montserratextrabold', arial, helvetica, sans-serif;
+  font-size: 40px;
   font-weight: bold;
   position: relative;
   z-index: 2;
-  margin-top: -330px;
+  margin-top: -331px;
   margin-left: 735px;
   width: 566px;
   color: #330099;
@@ -54,7 +57,7 @@
 }
 
 .banner__text {
-  font: 29px/36px 'montserratbold', arial, helvetica, sans-serif;
+  font-size: 29px;
   position: relative;
   z-index: 2;
   margin-left: 944px;
@@ -78,34 +81,6 @@
   background-size: 102%;
   margin-left: -8px;
   z-index: 1;
-}
-
-.first__tittle {
-  font-family: 'montserratregular', arial, helvetica, sans-serif;
-}
-
-.advantages__approach_tittle {
-  font-family: 'montserratregular', arial, helvetica, sans-serif;
-}
-
-.advantages__approach_text {
-  font-family: 'montserratregular', arial, helvetica, sans-serif;
-}
-
-.advantages__price__tittle {
-  font-family: 'montserratregular', arial, helvetica, sans-serif;
-}
-
-.advantages__price_text {
-  font-family: 'montserratregular', arial, helvetica, sans-serif;
-}
-
-.advantages__result_tittle {
-  font-family: 'montserratregular', arial, helvetica, sans-serif;
-}
-
-.advantages__result_text {
-  font-family: 'montserratregular', arial, helvetica, sans-serif;
 }
 
 .first__button {
@@ -174,7 +149,7 @@
   }
 
   .header__button {
-  	font: 22px/22px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 22px;
   }
 
   .banner__picture {
@@ -184,12 +159,12 @@
   }
 
   .banner__tittle {
-  	font: 42px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  	font-size: 42px;
   	margin-left: 1130px;
   }
 
   .banner__text {
-  	font: 30px/36px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 30px;
   	margin-left: 1350px;
   }
 }
@@ -254,7 +229,7 @@
   }
 
   .header__button {
-  	font: 20px/22px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 20px;
   	margin-top: 3px;
   }
 
@@ -266,19 +241,22 @@
   }
 
   .banner__tittle {
-  	font: 41px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  	font-size: 40px;
   	margin-left: 737px;
-  	letter-spacing: -0.3px;
+  	margin-top: -333px;
+  	letter-spacing: 0.5px;
   }
 
   .banner__text {
-  	font: 30px/37px 'montserratbold', arial, helvetica, sans-serif;
-  	margin-left: 945px;
-  	letter-spacing: 0.2px;
+  	font-size: 30px;
+  	margin-left: 942px;
+  	letter-spacing: 0px;
+  	margin-top: -25px;
   }
 
   .banner__text-lower {
-  	letter-spacing: 0.1px;
+  	letter-spacing: 0px;
+  	margin-right: -9px;
   }
 }
 
@@ -291,12 +269,12 @@
   }
 
   .banner__tittle {
-  	font: 40px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  	font-size: 40px;
   	margin-left: 650px;
   }
 
   .banner__text {
-  	font: 29px/37px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 29px;
   	margin-left: 865px;
   }
 }
@@ -312,7 +290,7 @@
   }
 
   .header__button {
-    font: 18px/22px 'montserratbold', arial, helvetica, sans-serif;
+    font-size: 18px;
     width: 170px;
   }
 
@@ -323,12 +301,12 @@
   }
 
   .banner__tittle {
-  	font: 38px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  	font-size: 38px;
   	margin-left: 600px;
   }
 
   .banner__text {
-  	font: 28px/37px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 28px;
   	margin-left: 800px;
   }
 }
@@ -345,12 +323,12 @@
   }
 
   .banner__tittle {
-  	font: 38px/48.5px 'montserratextrabold', arial, helvetica, sans-serif;
+  	font-size: 38px;
   	margin-left: 90%;
   }
 
   .banner__text {
-  	font: 28px/37px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 28px;
   	margin-left: 110%;
   }
   
@@ -438,7 +416,7 @@
   }
 
   .header__button {
-  	font: 8px/22px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 8px;
   	width: 80px;
   	padding: 10px 15px 10px 15px;
   	align-items: center;
@@ -449,7 +427,7 @@
   }
 
   .banner__tittle {
-	font: 20px/24px 'montserratextrabold', arial, helvetica, sans-serif;
+	font-size: 20px;
 	font-weight: bold;
 	position: relative;
 	z-index: 2;
@@ -466,7 +444,7 @@
   }
 
   .banner__text {
-	font: 16px/19px 'montserratbold', arial, helvetica, sans-serif;
+	font-size: 16px;
 	position: relative;
 	color: white;
 	z-index: 2;
@@ -495,7 +473,7 @@
 @media (max-width: 450px) {
   .header__button {
   	padding: 10px 13px 10px 15px;
-  	font: 8px/22px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 8px;
   	width: 100px;
   }
 }
@@ -581,7 +559,7 @@
   }
 
   .header__button {
-  	font: 8px/22px 'montserratbold', arial, helvetica, sans-serif;
+  	font-size: 8px;
   	width: 70px;
   	padding: 0 1px 0 9px;
   	align-items: center;
@@ -592,7 +570,7 @@
   }
 
   .banner__tittle {
-	font: 20.5px/24px 'montserratextrabold', arial, helvetica, sans-serif;
+	font-size: 20.5px;
 	font-weight: bold;
 	position: relative;
 	z-index: 2;
@@ -609,7 +587,7 @@
   }
 
   .banner__text {
-	font: 16px/20px 'montserratbold', arial, helvetica, sans-serif;
+	font-size: 16px;
 	position: relative;
 	z-index: 2;
 	margin-left: 25px;
