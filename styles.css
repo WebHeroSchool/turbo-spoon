@@ -43,7 +43,7 @@
 }
 
 .banner__tittle {
-  font-family: 'montserratextrabold', arial, helvetica, sans-serif;
+  font-family: 'montserratblack', arial, helvetica, sans-serif;
   font-size: 40px;
   font-weight: bold;
   position: relative;
@@ -241,9 +241,9 @@
   }
 
   .banner__tittle {
-  	font-size: 40px;
-  	margin-left: 737px;
-  	margin-top: -333px;
+  	font-size: 39px;
+  	margin-left: 736px;
+  	margin-top: -332px;
   	letter-spacing: 0.5px;
   }
 
