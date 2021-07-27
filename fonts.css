@@ -8,9 +8,17 @@
 }
 
 @font-face {
+    font-family: 'montserratblack';
+    src: url('fonts/montserrat-black.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'montserratextrabold';
     src: url('fonts/montserrat-extrabold.woff') format('woff'),
-         url('fonts/montserrat-extrabold-webfont.woff2') format('woff2');
+         url('fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/AnyConv.com_Montserrat-ExtraBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
