@@ -8,6 +8,13 @@
 }
 
 @font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/MontserratAlternates-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'montserratblack';
     src: url('fonts/MontserratAlternates-Black.woff') format('woff');
     font-weight: normal;
