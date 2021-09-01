@@ -1,5 +1,5 @@
 .wrapper {
-  font-family:'montserratblack', arial, helvetica, sans-serif;
+  font-family:'montserratbold', arial, helvetica, sans-serif;
   margin: auto;
   width: 100%;
 }
@@ -43,7 +43,7 @@
 }
 
 .banner__tittle {
-  font-family: 'montserratblack', arial, helvetica, sans-serif;
+  font-family: 'montserratbold', arial, helvetica, sans-serif;
   font-size: 40px;
   font-weight: bold;
   position: relative;
