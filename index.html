@@ -10,14 +10,22 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<a class="header__skills">Мои навыки</a>
-			<a class="header__apply">Оставить заявку</a>
+		<div class="header-menu">	
+			<input id="menu__toogle" type="checkbox"/>
+				<label class="menu__btn" for="menu__toogle">
+					<span></span>
+				</label>
+				<div class="menu__box">	
+					<a class="header__skills">Мои&nbsp;навыки</a>
+					<a class="header__apply">Оставить&nbsp;заявку</a>
+				</div>
+		</div>	
 			<button class="header__button">Позвонить</button>
 		</header>
 		<section class="banner">
-			<h1 class="banner__tittle">Разработка сайтов, игр и приложений</h1>
-			<p class="banner__text">Помогаю воплощать мечты в реальность</p>
 			<div class="banner__picture"></div>
+			<h1 class="banner__tittle">Разработка сайтов, <span class="banner__tittle-lower">игр и&nbsp;приложений</span></h1>
+			<p class="banner__text">Помогаю воплощать <span class="banner__text-lower">мечты&nbsp;в реальность</span></p>
 		</section>
 		<section class="first">
 			<h1 class="first__tittle">Почему вам стоит обратиться ко мне</h1>

@@ -1,14 +1,61 @@
+/*@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2')
+         url('ofont.ru_Montserrat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
 @font-face {
     font-family: 'montserratregular';
-    src: url('fonts/montserrat-regular-webfont.woff') format('woff');
+    src: url('../fonts/montserrat_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('../fonts/montserrat_regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('../fonts/montserrat_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat_regular.svg#montserrat_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../fonts/montserrat_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('../fonts/montserrat_medium.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('../fonts/montserrat_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat_medium.svg#montserrat_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face {
+    font-family: 'montserratmedium';
+    src: 
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('fonts/MontserratAlternates-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('fonts/montserrat-extrabold.woff') format('woff'),
+         url('fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/AnyConv.com_Montserrat-ExtraBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'montserratmedium';
-    src: url('fonts/montserrat-medium-webfont.woff') format('woff');
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
@@ -30,18 +77,51 @@
 
 }
 
+
+
 @font-face {
-    font-family: 'gilroymedium';
-    src: url('fonts/gilroy-medium-webfont.woff') format('woff');
+    font-family: 'gilroybold';
+    src: 
     font-weight: normal;
     font-style: normal;
 
 }
+
+
+
+
+@font-face {
+    font-family: 'gilroymedium';
+    src: url('fonts/gilroy-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 
 @font-face {
     font-family: 'gilroyregular';
-    src: url('fonts/gilroy-regular-webfont.woff') format('woff');
+    src: url('fonts/gilroy-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
+
+
+
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('fonts/gilroy-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
